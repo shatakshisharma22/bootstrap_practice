@@ -1,0 +1,92 @@
+.navbar-brand{
+	font-size: 35px;
+}
+.navbar1{
+	background-color: beige !important;
+	border-radius: 0px !important;
+	margin-bottom: 0px;
+}
+.navbar2{
+	color: #fa7d09;
+}
+.bbody{
+	height: 1000px;
+	background:url("https://c4.wallpaperflare.com/wallpaper/748/631/716/puppy-cute-dog-dachshund-wallpaper-preview.jpg") no-repeat;
+	background-size: cover;
+}
+.nonusa-div{
+	display: flex;
+	background-color: darkblue;
+	color: white;
+	width: 150px;
+	float: right;
+	padding-right: 12px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.cart-img{
+	width: 25px;
+	height: 25px;
+	margin: 12px 20px;
+}
+.p1{
+	margin: 10px auto;
+	font-size: 18px;
+}
+.p2{
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	margin: 75px auto;
+}
+.left_div{
+	height: 400px;
+	background-color: white;
+	border-radius: 20px;
+	padding: 20px;
+	display: grid;
+}
+.leftcol{
+	padding: 0px;
+}
+.ul2{
+	display: flex;
+}
+.outerdiv{
+	display: grid;
+	background-color: white;
+	width: 220px;
+	border-radius: 25px;
+	margin-left: 50px;
+}
+.bluediv{
+	background-color: #00bcd4;
+	border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+h5{
+	text-align: center;
+}
+.img3{
+	margin: 20px auto;
+}
+.btn2{
+	border:0px;
+	border-radius: 20px;
+	background-color: #bbd196;
+	color: white;
+	margin: 0 auto;
+	width: 100px;
+
+}
+.btn3{
+	border: 0px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 20px;
+	background-color: #1f4068;
+	color: white;
+	width: 100px;
+}
