@@ -58,10 +58,12 @@ hr{
 	background-color: navy;
 	color: white;
 	border:0px;
+	margin-left: 80px;
+	width: 150px;
+	height: 40px;
 }
 .outerdiv{
-	height: 250px;
-	width: 200px;
+	height: 350px;
 	display: grid;
 	background-color: white;
 	border-radius: 25px;
@@ -83,10 +85,11 @@ h5{
 	border-top-left-radius: 25px;
 }
 .img3{
-	margin-top: 10px;
+	height: 150px;
+	width: 100px;
+	margin-top: 50px;
 	margin-bottom: 10px;
-	margin-left:30%;
-	margin-right: 30%; 
+	margin-left:65px; 
 }
 .btn2{
 	border:0px;
@@ -95,23 +98,41 @@ h5{
 	color: white;
 	margin: 0 auto;
 	width: 100px;
-	margin: 0 25%;
+	margin-left:65px;
 }
 .btn3{
 	border: 0px;
 	margin-top: 10px;
 	margin-bottom: 20px;
-	margin-right: auto;
-	margin-left: auto;
 	border-radius: 20px;
 	background-color: #1f4068;
 	color: white;
 	width: 100px;
-	margin: 10px 25%;
+	margin-left:65px;
 }
 @media screen and (max-width: 798px)
 {
 	.ddhead{
 		text-align: center !important;
+	}
+	.outerdiv{
+		width: 250px;
+	}
+	.left_div{
+		width: 250px;
+	}
+	.btn1{
+		margin-left: 30px;
+		width: 150px;
+		height: 40px;
+	}
+	.img3{
+		margin-left: 75px;
+	}
+	.btn2{
+		margin-left:75px;
+	}
+	.btn3{
+		margin-left:75px;
 	}
 }
