@@ -110,10 +110,16 @@ h5{
 	width: 100px;
 	margin-left:65px;
 }
+.contact{
+	text-align: left;
+}
 @media screen and (max-width: 798px)
 {
 	.ddhead{
 		text-align: center !important;
+	}
+	.contact{
+		text-align: center;
 	}
 	.outerdiv{
 		width: 250px;
@@ -126,13 +132,16 @@ h5{
 		width: 150px;
 		height: 40px;
 	}
-	.img3{
+	.img3 , .btn2 , .btn3{
 		margin-left: 75px;
 	}
-	.btn2{
-		margin-left:75px;
+}
+@media screen and (width: 1024px)
+{
+	.btn1{
+		margin-left: 50px;
 	}
-	.btn3{
-		margin-left:75px;
+	.btn2 , .btn3 , .img3{
+		margin-left: 43px;
 	}
 }
